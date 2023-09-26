@@ -37,7 +37,6 @@ class ElectricPowerSwitch:
             self.state = True
 
 Light = LightBulb()
-
 Ventilo = Fan()
 
 EP1 = ElectricPowerSwitch(Light)
