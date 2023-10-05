@@ -46,7 +46,7 @@ est un framework RPC (Remote Procedure Call) open source développé par Google.
 
 En résumé, gRPC est un framework de communication RPC moderne et polyvalent qui peut être utilisé pour concevoir des API distantes performantes et interopérables. Bien qu'il ne soit pas une "architecture" au sens traditionnel, il joue un rôle clé dans la conception de l'API pour les systèmes distribués en fournissant un moyen efficace et normalisé de communication entre les composants distants d'une application.
 
-## design pattern & API rest
+## design pattern de conception & API rest
 
 Oui, il existe des design patterns couramment associés à l'architecture REST (Representational State Transfer). Bien que REST en lui-même ne spécifie pas de design pattern particulier, il repose sur un ensemble de principes architecturaux qui ont donné naissance à des patterns de conception et de bonnes pratiques couramment utilisés dans le développement d'API REST. Voici quelques-uns de ces patterns :
 
@@ -72,3 +72,11 @@ Oui, il existe des design patterns couramment associés à l'architecture REST (
 8. **HATEOAS (Hypermedia As The Engine Of Application State) :** Bien qu'il soit moins couramment utilisé en pratique, HATEOAS est un concept REST qui consiste à inclure des liens hypermédias dans les réponses pour guider le client vers les prochaines actions possibles.
 
 Ces patterns et principes aident les développeurs à concevoir des API RESTful cohérentes, évolutives et faciles à comprendre. Ils constituent un ensemble de bonnes pratiques pour la conception d'API basées sur l'architecture REST, bien que leur application précise puisse varier en fonction des besoins spécifiques de chaque projet.
+
+Les design patterns traditionnels (creational patterns, structural patterns, behavioral patterns) font référence à un ensemble de modèles de conception utilisés dans le domaine de l'ingénierie logicielle pour résoudre des problèmes courants de conception de logiciels. Ces patterns sont indépendants de l'architecture d'une API particulière et se concentrent sur la structure interne et le comportement des composants logiciels.
+
+En revanche, les patterns de conception que j'ai mentionnés précédemment dans le contexte de l'architecture REST sont spécifiques à la conception d'API basées sur l'architecture REST. Ils ne font pas partie des catégories traditionnelles de creational, structural ou behavioral design patterns. Au lieu de cela, ils se rapportent aux principes et aux bonnes pratiques spécifiques à la création d'API RESTful.
+
+Les catégories traditionnelles de design patterns incluent des modèles tels que Singleton, Factory, Adapter, Observer, Strategy, et bien d'autres, qui sont utilisés pour résoudre des problèmes de conception logicielle généraux.
+
+En résumé, bien que les design patterns traditionnels soient largement utilisés pour concevoir des logiciels, les patterns spécifiques à l'architecture REST sont des conventions et des bonnes pratiques qui guident la conception d'API RESTful pour la communication entre systèmes distribués. Ils ne font pas partie des catégories traditionnelles de design patterns en ingénierie logicielle.
