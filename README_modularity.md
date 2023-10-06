@@ -1,8 +1,6 @@
-# cohesion
+# cohesion & coupling
 
-# coupling
-
-loose coupling vs tight coupling
+## loose coupling vs tight coupling
 
 Des pratiques de conception telles que l'inversion de contrôle (IoC) et l'injection de dépendances (DI) sont utilisées pour réduire le couplage entre les composants d'une application.
 
