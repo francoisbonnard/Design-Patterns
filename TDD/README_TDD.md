@@ -27,6 +27,12 @@ https://github.com/iancooper/Presentations/tree/master
 ## Programmer Anarchy 
 https://martinjeeblog.com/2012/11/20/what-is-programmer-anarchy-and-does-it-have-a-future/
 
+Post agile 
+
+antediluvian pre-Agile hierarchical approach
+
+SDLC stands for Software Development Life Cycle. 
+
 ## ATDD suites
 
 Acceptance Test-Driven Development
@@ -43,3 +49,8 @@ Acceptance Test-Driven Development
 
 ## Red-Green-Refactor
 
+## Software Testing Ice-cream Cone Anti-Pattern
+
+![
+    img
+](image.png)
