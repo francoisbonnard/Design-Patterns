@@ -1,3 +1,6 @@
+All architectures become iterative because of unknown unknowns, Agile just recognizes
+this and does it sooner
+
 We’re all energised and committed, and we’re all loyal to the group effort.
 
 He (or she) has less brainpower to bring to bear on solving a problem. His view is limited, so he will make more mistakes. The more brilliant he is the bigger his mistakes will be, because he’ll eloquently persuade everybody else to waste 9 months on a fruitless task. Group responsibility is the way to go.

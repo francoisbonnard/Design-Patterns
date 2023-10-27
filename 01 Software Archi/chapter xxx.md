@@ -1,70 +1,73 @@
-# Introduction
-- Defining Software Architecture 3
-- Expectations of an Architect 8
-- Make Architecture Decisions 9
-- Continually Analyze the Architecture 9
-- Keep Current with Latest Trends 10
-- Ensure Compliance with Decisions 10
-- Diverse Exposure and Experience 11
-- Have Business Domain Knowledge 11
-- Possess Interpersonal Skills 12
-- Understand and Navigate Politics 12
-- Intersection of Architecture and… 13
-- Engineering Practices 14
-- Operations/DevOps 17
-- Process 18
-- Data 19
-- Laws of Software Architecture
 
 
-# Architectural Thinking
-
-- Architecture Versus Design 23
-- Technical Breadth 25
-- Analyzing Trade-Offs 30
-- Understanding Business Drivers 34
-- Balancing Architecture and Hands-On Coding 34
-
-# Modularity
-Definition 38
-Measuring Modularity 40
-Cohesion 40
-Coupling 44
-Abstractness, Instability, and Distance from the Main Sequence 44
-Distance from the Main Sequence 46
-Connascence 48
-Unifying Coupling and Connascence Metrics 52
-From Modules to Components 53
 
 # Architecture Characteristics Defined
-Architectural Characteristics (Partially) 
-Listed 58
-Operational Architecture Characteristics 58
-Structural Architecture Characteristics 59
-Cross-Cutting Architecture Characteristics 59
-Trade-Offs and Least Worst Architecture 63
+- Architectural Characteristics (Partially) Listed 58
+- Operational Architecture Characteristics 58
+- Structural Architecture Characteristics 59
+- Cross-Cutting Architecture Characteristics 59
+- Trade-Offs and Least Worst Architecture 63
+
+1. What three criteria must an attribute meet to be considered an architecture characteristic?
+2. What is the difference between an implicit characteristic and an explicit one?
+Provide an example of each.
+3. Provide an example of an operational characteristic.
+4. Provide an example of a structural characteristic.
+5. Provide an example of a cross-cutting characteristic.
+6. Which architecture characteristic is more important to strive for—availability or
+performance?
 
 # Identifying Architectural Characteristics
-Extracting Architecture Characteristics from Domain Concerns 65
-Extracting Architecture Characteristics from Requirements 67
-Case Study: Silicon Sandwiches 69
-Explicit Characteristics 70
-Implicit Characteristics 73
+- Extracting Architecture Characteristics from Domain Concerns 65
+- Extracting Architecture Characteristics from Requirements 67
+- Case Study: Silicon Sandwiches 69
+- Explicit Characteristics 70
+- Implicit Characteristics 73
+
+1. Give a reason why it is a good practice to limit the number of characteristics (“-
+ilities”) an architecture should support.
+2. True or false: most architecture characteristics come from business requirements
+and user stories.
+3. If a business stakeholder states that time-to-market (i.e., getting new features and
+bug fixes pushed out to users as fast as possible) is the most important business
+concern, which architecture characteristics would the architecture need to support?
+4. What is the difference between scalability and elasticity?
+5. You find out that your company is about to undergo several major acquisitions to
+significantly increase its customer base. Which architectural characteristics
+should you be worried about?
 
 # Measuring and Governing Architecture Characteristics
-Measuring Architecture Characteristics 77
-Operational Measures 78
-Structural Measures 79
-Process Measures 81
-Governance and Fitness Functions 82
-Governing Architecture Characteristics 82
-Fitness Functions 83
+- Measuring Architecture Characteristics 77
+- Operational Measures 78
+- Structural Measures 79
+- Process Measures 81
+- Governance and Fitness Functions 82
+- Governing Architecture Characteristics 82
+- Fitness Functions 83
 
-# Scope of Architecture Characteristics
-Coupling and Connascence 92
-vi | Table of Contents
-Architectural Quanta and Granularity 92
-Case Study: Going, Going, Gone 95
+1. Why is cyclomatic complexity such an important metric to analyze for architecture?
+2. What is an architecture fitness function? How can they be used to analyze an
+architecture?
+3. Provide an example of an architecture fitness function to measure the scalability
+of an architecture.
+4. What is the most important criteria for an architecture characteristic to allow
+architects and developers to create fitness functions?
+
+# 7 Scope of Architecture Characteristics
+- Coupling and Connascence 92
+- Architectural Quanta and Granularity 92
+- Case Study: Going, Going, Gone 95
+
+1. What is an architectural quantum, and why is it important to architecture?
+2. Assume a system consisting of a single user interface with four independently
+deployed services, each containing its own separate database. Would this system
+have a single quantum or four quanta? Why?
+3. Assume a system with an administration portion managing static reference data
+(such as the product catalog, and warehouse information) and a customer-facing
+portion managing the placement of orders. How many quanta should this system
+be and why? If you envision multiple quanta, could the admin quantum and
+customer-facing quantum share a database? If so, in which quantum would the
+database need to reside?
 
 # Component-Based Thinking
 Component Scope 99
@@ -279,3 +282,5 @@ The ThoughtWorks Technology Radar 367
 Open Source Visualization Bits 371
 Using Social Media 371
 Parting Words of Advice 372
+
+  
