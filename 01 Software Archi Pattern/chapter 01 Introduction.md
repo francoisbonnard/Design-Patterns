@@ -15,6 +15,12 @@ Scalability / Security / Agility
 Fault Tolerance / Elasticity / Recoverability
 Performance / Deployability / Learnability
 
+Maintainability : developed for several years
+Scalability : able to serve million of users
+Reliability : available 24/7
+Efficiency : short reponse latency
+
+
 Here are a few key points about elasticity in software architecture:
 Dynamic Scalability / Automatic Resource Provisioning / Load Balancing / Fault Tolerance: / Cost Optimization
 
