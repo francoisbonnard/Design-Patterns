@@ -5,7 +5,7 @@ Il existe de nombreuses architectures logicielles, chacune adaptée à des besoi
 1. [Layered Architecture](#architecture-en-couches)
 1. [Service-Oriented Architecture](#architecture-orientée-services)
 1. [Microservices Architecture](#architecture-orientée-microservices)
-1. [Event-Driven Architecture]
+1. [Event-Driven Architecture](#architecture-orientée-événements)
 1. [Component-Based Architecture]
 1. [Micro Kernel]
 7. [Space Based]
@@ -40,16 +40,40 @@ Advantages :
 
 ![Alt text](image-4.png)
 
+SAGA pattern to make it like ACID Transaction (Atomic, Consistent, Isolated, Durable)
+
+
+
 **When Use the Microservices Approach**
 
 Undoubtedly, microservices works best for teams looking to re-write their monolithic applications to a more sustainable pattern.
 Microservices works best for applications with immense and rapidly growing data systems.
 
-4. **Architecture orientée événements (Event-Driven Architecture, EDA) :** EDA est un style d'architecture où les composants interagissent en réaction à des événements. Les événements, tels que les modifications de données ou les actions utilisateur, déclenchent des réponses dans les différents composants du système. Cette approche est souvent utilisée pour construire des systèmes réactifs et évolutifs.
+## **Architecture orientée événements** 
+(Event-Driven Architecture, EDA) : EDA est un style d'architecture où les composants interagissent en réaction à des événements. Les événements, tels que les modifications de données ou les actions utilisateur, déclenchent des réponses dans les différents composants du système. Cette approche est souvent utilisée pour construire des systèmes réactifs et évolutifs.
 
 ![Alt text](image-3.png)
 
 The standard concepts that we come across here include publishers, subscribers, sources, and sinks. The publisher is the component that captures the event data and stores it in an event data store. The subscriber then consumes and potentially responds to the event. Sources are where the data originates, which is triggered by UI events. Sinks are destinations where subscribers send data.
+
+Producer - Broker - Consumer
+
+Publish / Subscribe model
+
+Advantages : 
+- Decoupling
+- Dependancy Inversion
+- Scalability
+
+Drawbacks:
+- Eventual Consistency
+
+When to use :
+
+Scalability > Performance
+like Data replication or Parallel Procesing
+
+Decoupling system (the contact becomes the event)
 
 **When Can We Opt for the Event-Driven Architecture Pattern?**
 
