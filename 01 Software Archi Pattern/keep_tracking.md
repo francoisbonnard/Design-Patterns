@@ -2,7 +2,8 @@
 
 https://www.infoq.com/
 https://dzone.com/refcardz
-    
+
+https://github.com/G33kzD3n/Catalogue
 
 ## technology radar
 
@@ -60,7 +61,7 @@ Next / https://www.youtube.com/watch?v=gxfERVP18-g&list=PL4JxLacgYgqTgS8qQPC17fM
 
 ### horizontal scaling
 
-Sharing or replication
+Sharding or replication
 
 Data sharding (split data between country)
 
@@ -70,3 +71,91 @@ Sharding by hash (for user id)
 ## Event Sourcing
 
 CQRS / split read & write
+
+## NoSQL
+
+Non-Relational databases 
+
+Popular ones are CouchDB,  Neo4j, Cassandra, HBase, Amazon DynamoDB 
+
+These databases are grouped into four categories: 
+
+- key-value stores
+- graph stores 
+- column stores
+- document stores. 
+
+Join operations are generally not supported in non-relational databases
+
+Non-relational databases might be the right choice if:
+
+• Your application requires super-low latency.
+• Your data are unstructured, or you do not have any relational data.
+• You only need to serialize and deserialize data (JSON, XML, YAML, etc.).
+• You need to store a massive amount of data.
+
+## DB replication 
+
+![Alt text](image-6.png)
+
+## DB replication with django
+
+https://docs.djangoproject.com/en/4.2/topics/db/multi-db/
+https://earthly.dev/blog/set-up-postgresql-db/
+
+Folowing code from chtgpt3.5 :
+
+```python
+# settings.py
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase',
+        'USER': 'mydatabaseuser',
+        'PASSWORD': 'mypassword',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    },
+    'replica': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase',
+        'USER': 'mydatabaseuser',
+        'PASSWORD': 'mypassword',
+        'HOST': 'replica-host',
+        'PORT': '5432',
+    }
+}
+DATABASE_ROUTERS = ['myproject.routers.ReplicationRouter']
+
+
+
+# routers.py
+class ReplicationRouter:
+    def db_for_read(self, model, **hints):
+        if model._meta.app_label == 'myapp':
+            return 'replica'
+        return 'default'
+
+    def db_for_write(self, model, **hints):
+        if model._meta.app_label == 'myapp':
+            return 'default'
+        return 'default'
+
+    def allow_relation(self, obj1, obj2, **hints):
+        return True
+
+    def allow_migrate(self, db, app_label, model_name=None, **hints):
+        return True
+
+# view
+from django.db import connections
+
+def my_view(request):
+    with connections['replica'].cursor() as cursor:
+        cursor.execute('SELECT * FROM mytable')
+        results = cursor.fetchall()
+    # Utilisez les résultats de la réplication ici
+
+
+```
+
