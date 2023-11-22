@@ -159,3 +159,31 @@ def my_view(request):
 
 ```
 
+## agile is dead
+
+from [agile is dead](https://www.youtube.com/watch?v=WSflPE_oIRI)
+
+### basic solution
+"if we only paid attention to each other as human beings and worked small and did things iteratively [...] we don't need any of this agile stuff...".
+
+### self management
+My first understanding was that Agile/Scrum is a way to allow developers to sort of manage themselves, with acknowledgement that they can't get away from management completely and therefore tack on the idea of accountability to make it fit in a business context. But instead it has become a way for the business to micromanage developers. Agile/Scrum, I thought, was a way to identify work that is blocked or not working, and to fix it as a group. But In my experience it was not always done with the right attitude. Agile/scrum techniques are meant to quickly identify developer problems. Since everybody is different, all developers have different abilities. And so developer problems can also look like problem developers; problematic or underperforming developers. It can put rockstar developers on a pedestal, since they are responsible for making the burn down charts look good, and incentivizes those developers to look out for themselves. 
+
+### bug-driven development
+Instead, you have to have the right attitude, so that solving problems as a group means working with the group that you have. If you don't do that, it incentivizes developers to cut corners, in order to make artificial deadlines, and so you end up with bug-driven development instead of high quality code. The same goes for deadlines, where strict adherence to deadlines incentivizes mediocre developers to avoid taking the time to build in quality, and to cut corners instead, since only the top performers can be safely transparent.
+
+### I've seen 
+
+grown adults cry during stand ups, and retrospectives devolve into finger pointing, name calling, and even chair throwing.
+
+
+### Competence
+
+I think the root problem is one of competence.  If you have a small group of highly talented engineers who work well together then almost any process will work.  So you have very skilled people defining a light weight iterative process and some basic principles as “agile.”   Then you have a mass of management and mediocre software developers trying to apply concepts that, while simple, they don’t fully appreciate.   Most software developers think they are great.  Not everyone can be the best.  The majority are simply code monkeys.  The folks who defined agile originally are probably all really smart.  Often smart people underestimate their own ability and drastically overestimate the ability of the average software developer.
+
+
+### underlying organizational problems
+ Almost all the Scrum hate I've witnessed first hand has, upon deeper probing, been frustration with how Scrum exposed underlying organizational problems that needed addressing regardless of what framework we used.
+
+### a methodology primarily for management 
+ The problem I've seen with Agile (particularly in larger business) is that it's a methodology primarily for management, not for software engineers. Software engineers become disempowered under layers of middle management ceremony, and product owners are often so far removed from the actual production of the software that they equally become disempowered. This leads to a true lack of actual ownership and quality assurance yet it looks good and sensible from a line management point of view (and there are lovely graphs!) so it's the defacto tool of choice for big tech brother. Nobody uses it on smaller more passionate projects which are often far superior in quality, as they actually care about what they're doing.

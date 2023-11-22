@@ -235,17 +235,7 @@ Availability 310
 Elasticity 312
 Security 313
 
-# Diagramming and Presenting Architecture
-Diagramming 316
-Tools 316
-Diagramming Standards: UML, C4, and ArchiMate 318
-Diagram Guidelines 319
-Presenting 321
-Manipulating Time 321
-Incremental Builds 322
-Infodecks Versus Presentations 324
-Slides Are Half of the Story 324
-Invisibility 324
+
 
 # Making Teams Effective
 Team Boundaries 325

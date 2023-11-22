@@ -15,8 +15,6 @@ Service based =? Service-oriented
 Orchestration-driven Service Oriented
 
 
-
-
 Detailed
 
 # Architecture en couches
