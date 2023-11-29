@@ -6,7 +6,6 @@ Serverless
 
 serverless computing = event-driven FaaS
 
-
 [podcast](https://www.redhat.com/en/command-line-heroes/season-2/at-your-serverless)
 
 [article amazon](https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)
@@ -18,8 +17,21 @@ serverless computing = event-driven FaaS
 [check the video and comments to learn more about performance about Lambda](https://www.youtube.com/watch?v=7l3H6iY8Obg)
 https://changelog.com/jsparty/294
 
+## Infrastructure as code
+
+IaC is a methodology that involves managing and provisioning computing infrastructure through machine-readable script files, rather than through physical hardware configuration or interactive configuration tools.
+It treats infrastructure as if it were software, allowing for the use of version control, automated testing, and other software development best practices in the management of infrastructure.
+IaC enables the automation of infrastructure deployment, configuration, and management, making it more scalable, repeatable, and less error-prone.
+
+e.g Terraform from Hashicorp is a versatile infrastructure as code (IaC) tool that is primarily used for provisioning and managing infrastructure. It is commonly used in the context of Infrastructure as a Service (IaaS) and sometimes Platform as a Service (PaaS). However, its primary focus is on IaaS.
+
 ## IAAS (infra as a service)
 IaaS provides you with computing infrastructure, physical or virtual machines and other resources like virtual-machine disk image library, block, and file-based storage, firewalls, load balancers, IP addresses, and virtual local area networks. An example of this is an Amazon Elastic Compute Cloud (EC2) instance.
+
+With IaaS, users have control over the operating systems, applications, and middleware, while the cloud provider is responsible for managing the underlying infrastructure, including hardware, virtualization, and networking.
+IaaS provides a high level of flexibility and scalability, as users can quickly scale their infrastructure up or down based on their needs.
+
+IaC is a methodology for managing and provisioning infrastructure using code, treating infrastructure as if it were software. IaaS, on the other hand, is a specific category of cloud services that provides virtualized computing resources. While IaC can be used in various contexts, including on-premises environments, IaaS specifically refers to cloud-based infrastructure services. 
 
 ## PaaS (Platform-as-a-Service)
 PaaS provides you with computing platforms which typically includes the operating system, programming language execution environment, database, and web server. Some examples include AWS Elastic Beanstalk, Azure Web Apps, and Heroku

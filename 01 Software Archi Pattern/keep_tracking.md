@@ -5,6 +5,12 @@ https://dzone.com/refcardz
 
 https://github.com/G33kzD3n/Catalogue
 
+## stackoverflow & cloudflare
+
+https://stackexchange.com/performance
+
+https://blog.cloudflare.com/scalable-machine-learning-at-cloudflare/
+
 ## technology radar
 
 https://www.thoughtworks.com/radar

@@ -2,6 +2,20 @@
 
 Ensemble de cinq principes de conception logicielle qui visent à créer des systèmes logiciels bien structurés, faciles à comprendre, à maintenir et à étendre. Voici une brève explication de chacun de ces principes, accompagnée d'exemples en Python :
 
+Single Responsibility Principle (SRP) : Une classe devrait avoir une seule raison de changer.
+
+Open/Closed Principle (OCP) : Une classe devrait être ouverte à l'extension mais fermée à la modification.
+
+Liskov Substitution Principle (LSP) : Les objets d'une classe de base doivent pouvoir être remplacés par des objets de classes dérivées sans affecter la cohérence du programme.
+
+Interface Segregation Principle (ISP) : Il vaut mieux avoir plusieurs interfaces spécifiques qu'une interface générale.
+
+Dependency Inversion Principle (DIP) : Les modules de haut niveau ne devraient pas dépendre des modules de bas niveau. Les deux devraient dépendre d'abstractions. De plus, les abstractions ne devraient pas dépendre des détails, mais les détails devraient dépendre des abstractions.
+
+Lien avec les Design Patterns
+
+Par exemple, le design pattern "Observer" peut être utilisé pour respecter le principe de responsabilité unique (SRP) en permettant à un objet d'avoir une seule responsabilité tout en permettant à d'autres objets d'observer ses changements d'état. De même, le design pattern "Strategy" peut être utilisé pour respecter le principe d'ouverture/fermeture (OCP) en permettant de changer dynamiquement le comportement d'un objet sans le modifier.
+
 1. **Principe de responsabilité unique (Single Responsibility Principle - SRP)** : Une classe ne devrait avoir qu'une seule raison de changer.
 
    Exemple en Python :
@@ -45,6 +59,8 @@ Ensemble de cinq principes de conception logicielle qui visent à créer des sys
    Ici, de nouvelles formes peuvent être ajoutées (extension) sans modifier la classe `Shape` existante (fermeture).
 
 3. **Principe de substitution de Liskov (Liskov Substitution Principle - LSP)** : Les objets d'une sous-classe doivent pouvoir être utilisés à la place des objets de la classe parente sans altérer la cohérence du programme.
+
+objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program
 
    Exemple en Python :
    
@@ -146,6 +162,7 @@ Ces principes SOLID sont conçus pour améliorer la qualité du code en le renda
 # Lien avec les design patterns
 
 Les Design Patterns du Gang of Four (GoF) et les principes SOLID sont deux concepts importants en matière de conception logicielle, et ils sont liés de plusieurs façons.
+
 
 1. Cohésion et Couplage :
    - Les principes SOLID, en particulier le principe de la Responsabilité Unique (Single Responsibility Principle - SRP), visent à promouvoir une forte cohésion dans les classes en s'assurant qu'elles ont une seule raison de changer. Les Design Patterns du GoF, tels que le "Pattern de Responsabilité Unique" (Single Responsibility Pattern), sont alignés avec le SRP et encouragent une conception avec des classes spécifiques ayant des responsabilités claires.

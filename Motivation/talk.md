@@ -9,4 +9,8 @@ antediluvian pre-Agile hierarchical approach”
 
  Individuals using their strengths to support each other and cover each other’s weaknesses in pursuit of unified vision is a sign of maturity and strong leadership.
 
+change is that we are chemically designed for
  
+Conway's Law states organizations are constrained to produce designs which are
+copies of their communication structure
+
