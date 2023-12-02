@@ -63,7 +63,7 @@ class Reviewed:
         self.document.set_state(Finalized(self.document))
 
 
-@dataclass
+  
 class Finalized:
     document: DocumentContext
 
