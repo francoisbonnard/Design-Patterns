@@ -11,4 +11,10 @@ ctrl 7 for three backticks between line code
 
 shift alt I 
 
+## list all python version 
 
+    py -0p
+
+## extension / Data converter
+
+select text & alt + D

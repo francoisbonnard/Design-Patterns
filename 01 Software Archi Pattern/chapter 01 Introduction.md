@@ -52,12 +52,11 @@ or : development teams should leverage asynchronous messaging between services w
 
 ## Laws of Software Architecture
 
-    Everything in software architecture is a trade-off —First Law of Software Architecture
+Everything in software architecture is a trade-off —First Law of Software Architecture
 
-    If an architect thinks they have discovered something that isn’t a trade-off, more likely
-    they just haven’t identified the trade-off yet —Corollary 1
+If an architect thinks they have discovered something that isn’t a trade-off, more likely they just haven’t identified the trade-off yet —Corollary 1
 
-    Why is more important than how —Second Law of Software Architecture
+Why is more important than how —Second Law of Software Architecture
 
 
 1. What are the four dimensions that define software architecture?

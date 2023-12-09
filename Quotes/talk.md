@@ -14,3 +14,8 @@ change is that we are chemically designed for
 Conway's Law states organizations are constrained to produce designs which are
 copies of their communication structure
 
+There is a computer disease that anybody who works with computer knows about it. The trouble with computers is that you 'play' with them
+
+St Cassian of Imola (Saint patron des enseignants)
+
+Under-Attack-The-Evolution-of-Cyber-Security
