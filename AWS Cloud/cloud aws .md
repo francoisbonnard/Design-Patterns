@@ -41,6 +41,10 @@
 
 ![private subnet route table for NATs](image-19.png)
 
+![Final result](image-31.png)
+
+![From Cegos Lab2](image-30.png)
+
 ![Hybrid connectivity](image-20.png)
 
 Secure but not reliable
