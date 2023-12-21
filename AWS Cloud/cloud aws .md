@@ -1,3 +1,14 @@
+AWS has revealed it has created a new hypervisor based on KVM, not the Xen hypervisor on which it has relied for years[1]
+
+Amazon AWS calls this technology the Nitro Hypervisor
+
+Q. What is the Nitro Hypervisor?
+
+The launch of C5 instances introduced a new hypervisor for Amazon EC2, the Nitro Hypervisor. As a component of the Nitro system, the Nitro Hypervisor primarily provides CPU and memory isolation for EC2 instances. VPC networking and EBS storage resources are implemented by dedicated hardware components, Nitro Cards that are part of all current generation EC2 instance families. The Nitro Hypervi
+
+
+
+
 [course AWS](https://www.youtube.com/watch?v=XZbvQWkpJTI)
 
 ![Networking services you should know](image-1.png)
