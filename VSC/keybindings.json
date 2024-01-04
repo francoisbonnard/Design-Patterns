@@ -1,0 +1,21 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+7",
+        "command": "editor.action.insertSnippet",
+        "args": {
+            "snippet": "```\n${TM_SELECTED_TEXT}$0\n```"
+        },
+        "when": "editorTextFocus && editorLangId == markdown"
+    },
+    {
+        "key": "ctrl+oem_1 ctrl+oem_1",
+        "command":"editor.action.insertSnippet",
+        "args": {
+            "snippet": "${1:$} $",
+            "insertFinalNewline": false
+        },
+        "when": "editorTextFocus  && editorLangId == markdown"
+    },
+
+]
