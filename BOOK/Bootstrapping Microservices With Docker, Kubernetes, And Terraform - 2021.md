@@ -177,3 +177,62 @@ Let’s check the output of the microservice and see what it tells us:
     docker logs < container id >
 
 ## 3.9 pushing the micro services
+
+AUTHENTICATING WITH THE REGISTRY
+
+    docker login <your-registry-url> --username <your-username> --password <your-password>
+
+TAGGING OUR IMAGE
+
+    docker tag video-streaming bmdk1.azurecr.io/video-streaming:latest
+    docker tag <existing-image> <registry-url>/<image-name>:<version>
+
+PUSHING OUR IMAGE TO THE REGISTRY
+
+    docker push bmdk1.azurecr.io/video-streaming:latest
+    docker push <registry-url>/<image-name>:<version>
+
+REMOVING OLD CONTAINER
+
+Before we can test our image from the registry, there’s one thing standing in our way. We must first remove the local versions of our image. We have to do this; otherwise, when we invoke docker run, it will boot the container from the local version of the image that we already have.
+
+    docker ps
+    docker kill <container id>
+    docker rm <container id>
+    docker image list
+    docker rmi <image id> --force
+    docker run -d -p 3000:3000 bmdk1.azurecr.io/video-streaming:latest
+
+# 4 Data management for microservices
+
+see chapter-4 folder
+
+    docker-compose up --build
+
+New terminal
+
+    docker-compose ps
+
+stop option 1
+
+    docker-compose stop
+stop option 2
+
+    ctrl+C
+
+stop option 3
+
+    docker-compose down
+
+restart
+
+    docker-compose down && docker-compose up --build
+
+Shell script
+
+down.sh for docker-compose down
+reboot.sh for docker-compose down && docker-compose up --build
+
+## 4.4 Adding file storage to our application
+
+here
