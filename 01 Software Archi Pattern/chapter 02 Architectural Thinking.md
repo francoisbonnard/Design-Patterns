@@ -30,3 +30,8 @@ explain why that approach no longer works.
 example of each.
 3. Why is it more important for an architect to focus on technical breadth rather than technical depth?
 4. What are some of the ways of maintaining your technical depth and remaining hands-on as an architect?
+
+
+![Levels of abstraction in Architecture](image-13.png)
+
+[Source Video](https://www.youtube.com/watch?v=LBIZpRr2U-0)
