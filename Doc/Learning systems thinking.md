@@ -47,4 +47,14 @@ We want to be right, and we want people to agree that we are right. This is anti
 
 Opinion-driven discussions don’t usually focus on understanding the complexity inherent in each context
 
- 
+
+## chapter 6 : A system of learning
+
+Inference is reaching a conclusion based on reasoning and evidence.
+
+Argumentation is not arguing
+
+Your own ideas about how the world should be come through in emotionally
+loaded overtones (this is a form of bias). “Agile is a steaming pile of garbage
+dumped into JIRA.”
+
