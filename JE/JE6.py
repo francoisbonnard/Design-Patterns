@@ -187,7 +187,7 @@ def download_one_pdf(url: str, out_dir: str, session: requests.Session, delay: f
     pdf_path = os.path.join(out_dir, base_name)
     jpg_path = os.path.join(jpg_dir, base_name[:-4] + ".jpg")
 
-   # Skip si déjà présent
+       # Skip si déjà présent
     if os.path.exists(pdf_path):
         if make_jpg:
             if os.path.exists(jpg_path):
